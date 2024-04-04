@@ -1,5 +1,5 @@
 name: credit_card_displayer
-description: "A new Flutter plugin project."
+description: "A very easy-to-use package to display credit card logos, according to the card number."
 version: 0.0.1
 homepage: https://github.com/Hery34/credit_card_displayer.git
 
