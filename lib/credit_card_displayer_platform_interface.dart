@@ -1,6 +1,5 @@
+import 'package:credit_card_displayer/credit_card_displayer_method_channel.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
-
-import 'credit_card_displayer_method_channel.dart';
 
 abstract class CreditCardDisplayerPlatform extends PlatformInterface {
   /// Constructs a CreditCardDisplayerPlatform.
@@ -8,7 +7,8 @@ abstract class CreditCardDisplayerPlatform extends PlatformInterface {
 
   static final Object _token = Object();
 
-  static CreditCardDisplayerPlatform _instance = MethodChannelCreditCardDisplayer();
+  static CreditCardDisplayerPlatform _instance =
+      MethodChannelCreditCardDisplayer();
 
   /// The default instance of [CreditCardDisplayerPlatform] to use.
   ///
