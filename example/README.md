@@ -1,6 +1,6 @@
-# credit_card_displayer_example
+# example
 
-Demonstrates how to use the credit_card_displayer plugin.
+A new Flutter project.
 
 ## Getting Started
 

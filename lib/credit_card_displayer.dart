@@ -55,8 +55,11 @@ class CreditCardDisplayer extends StatelessWidget {
                     borderRadius: BorderRadius.circular(8),
                     color: Colors.black,
                   ),
-                  child: Image.asset(
-                    'assets/${_getCardTypeAsset(cardType)}',
+                  child: Image(
+                    image: AssetImage(
+                      _getCardTypeAsset(cardType),
+                      package: 'credit_card_displayer',
+                    ),
                     height: 40,
                     width: 40,
                   ),
@@ -105,20 +108,20 @@ class CreditCardDisplayer extends StatelessWidget {
     } else if (cardNumber.startsWith('3')) {
       return 'amex';
     } else {
-      return 'card';
+      return 'visa';
     }
   }
 
   String _getCardTypeAsset(String cardType) {
     switch (cardType) {
       case 'visa':
-        return 'visa.png';
+        return 'lib/assets/visa.png';
       case 'mastercard':
-        return 'mastercard.png';
+        return 'lib/assets/mastercard.png';
       case 'amex':
-        return 'amex.png';
+        return 'lib/assets/amex.png';
       default:
-        return 'visa.png';
+        return 'lib/assets/visa.png';
     }
   }
 }
