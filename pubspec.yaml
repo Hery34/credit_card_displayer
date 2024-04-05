@@ -1,6 +1,6 @@
 name: credit_card_displayer
 description: "A very easy-to-use package to display credit card logos, according to the card number."
-version: 0.0.1
+version: 0.0.3
 homepage: https://github.com/Hery34/credit_card_displayer.git
 
 environment:
@@ -18,15 +18,5 @@ dev_dependencies:
   flutter_lints: ^3.0.0
 
 flutter:
-
-  plugin:
-    platforms:
-
-      some_platform:
-        pluginClass: somePluginClass
-
-
   assets:
-  - assets/
-    
-    
+    - assets/
