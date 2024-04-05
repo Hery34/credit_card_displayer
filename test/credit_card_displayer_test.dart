@@ -62,7 +62,7 @@ void main() {
       expect(find.byType(Image), findsOneWidget);
       final Image image = tester.widget(find.byType(Image));
       expect(image.image, isInstanceOf<AssetImage>());
-      expect((image.image as AssetImage).assetName, equals('assets/visa.JPG'));
+      expect((image.image as AssetImage).assetName, equals('assets/visa.png'));
     });
   });
 }

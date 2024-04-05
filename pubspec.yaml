@@ -27,8 +27,6 @@ flutter:
 
 
   assets:
-    - assets/visa.JPG
-    - assets/mastercard.JPG
-    - assets/amex.JPG
-    - assets/all.JPG
+  - assets/
+    
     

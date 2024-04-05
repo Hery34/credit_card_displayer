@@ -31,6 +31,7 @@ class CreditCardDisplayer extends StatelessWidget {
         height: height,
         padding: const EdgeInsets.all(16),
         decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(16),
           gradient: LinearGradient(
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
@@ -111,13 +112,13 @@ class CreditCardDisplayer extends StatelessWidget {
   String _getCardTypeAsset(String cardType) {
     switch (cardType) {
       case 'visa':
-        return 'visa.JPG';
+        return 'visa.png';
       case 'mastercard':
-        return 'mastercard.JPG';
+        return 'mastercard.png';
       case 'amex':
-        return 'amex.JPG';
+        return 'amex.png';
       default:
-        return 'all.JPG';
+        return 'visa.png';
     }
   }
 }
