@@ -1,6 +1,6 @@
 name: credit_card_displayer
-description: "A very easy-to-use package to display credit card logos, according to the card number."
-version: 0.0.4
+description: "A very easy-to-use package to display credit card with the appropriate logo, according to the credit card first number"
+version: 0.0.6
 homepage: https://github.com/Hery34/credit_card_displayer.git
 
 environment:

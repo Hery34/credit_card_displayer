@@ -1,16 +1,30 @@
-# example
+# credit_card_displayer
 
-A new Flutter project.
+A very simple and easy-to-use customisable plugin to display a credit card. The card logo is set automatically according
+to the card nature.
 
-## Getting Started
+## Installation
 
-This project is a starting point for a Flutter application.
+Run this command on a terminal :
 
-A few resources to get you started if this is your first Flutter project:
+```
+flutter pub add credit_card_displayer
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Example
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+After running the command below, you should see this in your pubspec.yaml :
+
+![pubspec.yaml](/screenshots/pubspec.yaml.png)
+
+To use it, you must first import the package
+
+![pubspec.yaml](/screenshots/importing.png)
+
+And finally, to use it, you can do this way :
+
+![pubspec.yaml](/screenshots/use.png)
+
+This is a screenshot of the excpected result :
+
+![pubspec.yaml](/screenshots/screenshot.jpeg)
