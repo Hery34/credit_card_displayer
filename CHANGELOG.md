@@ -20,4 +20,8 @@ Logo displaying added
 
 ## 0.0.6
 
-Read me updated with illustrated example
+Readme updated with illustrated example
+
+## 0.0.7
+
+Additionnal informations added to the readMe docs
